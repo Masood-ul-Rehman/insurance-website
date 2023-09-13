@@ -61,7 +61,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="mt-[3vw] sm:flex l:flex-col justify-between flex-wrap">
-        <div className="l:w-auto sm:w-[48%] mr-[2%] sm:mt-0 mt-10 ">
+        <div className="l:w-auto sm:w-[48%]  sm:mt-0 mt-10 ">
           <Image
             src={"/assets/images/img.svg"}
             width={40}
@@ -69,7 +69,7 @@ const Hero = () => {
             alt="more"
             className="inline hero-scal-anim"
           />
-          <h4 className="font-semibold sm:text-base text-xl  mt-3 l:w-[75%] hero-scal-anim">
+          <h4 className="font-semibold sm:text-base text-xl  mt-3 xl:w-[75%] l:w-[95%] hero-scal-anim">
             Our plans are saving policyholders 30% - 60% on premiums
           </h4>
         </div>
