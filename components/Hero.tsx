@@ -14,7 +14,7 @@ const Hero = () => {
         fontSize: 3,
       },
       {
-        fontSize: "14vw",
+        fontSize: "13vw",
         duration: 2,
         stagger: 0.2,
       }
