@@ -15,6 +15,9 @@ const config: Config = {
       },
       colors: {
         blue: "#84D7E9",
+        bgClr: "#0D1D30",
+        accent: "#FF6476",
+        textClr: "#0D1D30",
       },
       fontFamily: {
         blimone: ["Blimone", "sans-serif"],

@@ -10,11 +10,22 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Giorgio Sans";
+  src: url("/assets/fonts/GiorgioSans-Bold.woff2") format("woff2"),
+    url("/assets/fonts/GiorgioSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 h1 {
   font-family: "Blimone", sans-serif !important;
   line-height: 0.9;
   letter-spacing: -8px;
+}
+h5 {
+  font-family: "Giorgio Sans", sans-serif !important;
 }
 @media screen and (max-width: 1280px) {
   h1 {
@@ -42,4 +53,8 @@ h1 {
 .grid-hero {
   grid-template-columns: 55% 15% 20%;
   gap: 5%;
+}
+.grid-services {
+  grid-template-columns: 45% 22% 32%;
+  gap: 1%;
 }

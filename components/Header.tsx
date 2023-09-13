@@ -1,10 +1,8 @@
 "use client";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
 import gsap from "gsap";
 import { useEffect } from "react";
 
-const popins = Poppins({ weight: ["400", "600", "700"], subsets: ["latin"] });
 const Header = () => {
   useEffect(() => {
     gsap.fromTo(".increment", { width: 0 }, { width: 40, duration: 2 });
@@ -25,7 +23,7 @@ const Header = () => {
   return (
     <div>
       <div
-        className={`l:flex hidden items-center justify-between text-white pt-14  ${popins.className}`}
+        className={`l:flex hidden items-center justify-between text-white pt-14 `}
         style={{ fontWeight: "600" }}
       >
         <Image
